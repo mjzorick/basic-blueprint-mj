@@ -13,10 +13,6 @@ const nextConfig = {
   images: {
     domains: [WP_HOST],
   },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
 };
 
 module.exports = withFaust(nextConfig);
